@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "github": {
+    "enabled": true,
+    "silent": true
+  },
+  "buildCommand": "npm run build",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD . || exit 1"
+}
