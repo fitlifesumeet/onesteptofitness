@@ -1,0 +1,1 @@
+import dynamic from 'next/dynamic'; const Planner = dynamic(()=> import('../components/Planner'), { ssr:false }); export default function Page(){ return <Planner/> }
